@@ -1,1 +1,7 @@
+Console.WriteLine("Vedite a");
+double a = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Vvedite b");
+double b = Convert.ToDouble(Console.ReadLine());
+double y = (Math.Pow(a, 2) + Math.Pow(b, 2)) / 2;
+Console.WriteLine(y);
 
